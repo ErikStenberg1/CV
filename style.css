@@ -1,7 +1,9 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
     background-color: hsl(40, 50%, 60%);
     margin: auto;
+    font-size: 18px;
 }
 
 header{
@@ -14,7 +16,7 @@ h1, h2 {
 }
 
 main {
-    max-width: 70rem;
+    max-width: 80rem;
     padding: 15px;
     margin: auto;
     background-color: hsl(40, 100%, 85%)
@@ -78,7 +80,7 @@ ul {
     text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
 
         #container{
             flex-direction: column;
